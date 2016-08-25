@@ -12,6 +12,7 @@ module Bootstrap
 
       def copy_lib
         directory "lib/templates/#{options[:template_engine]}"
+        directory "lib/templates/rails"
       end
 
       def copy_form_builder
