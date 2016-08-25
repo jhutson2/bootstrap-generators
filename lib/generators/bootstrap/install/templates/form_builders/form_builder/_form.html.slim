@@ -10,7 +10,7 @@
       ul
         - @<%= singular_table_name %>.errors.full_messages.each do |msg|
           li= msg
-<%-  attributes.each do |attribute| -%>
+<%- attributes.each do |attribute| -%>
   .form-group
     = f.label :<%= attribute.name %>, class: "col-sm-2 control-label"
     .col-sm-10
